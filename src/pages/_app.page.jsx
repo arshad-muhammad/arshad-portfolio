@@ -119,40 +119,38 @@ function MyApp({ Component, pageProps, router }) {
   );
 
   return (
-    <>
-      <div className={styles.root}>
-        {domElements}
-        <div ref={layoutRef} id="layout" className={styles.layout}>
-          {canvasElements}
-          <Canvas
-            id="fluidCanvas"
-            flat
-            gl={{
-              antialias: false,
-              stencil: false,
-              depth: false,
-              pixelRatio: 0.1,
-            }}
-            style={{ mixBlendMode: 'difference', background: 'black' }}
-            linear
-            className={styles.canvasContainer}
-            eventSource={mainRef.current}
-            dpr={[0.1, 0.5]}
-          >
-            <EffectComposer>
-              <Fluid fluidColor={fluidColor} mainRef={mainRef} />
-            </EffectComposer>
-          </Canvas>
-          <main ref={mainRef} className={styles.main}>
-            <div ref={mainContainerRef} id="mainContainer" className={styles.mainContainer}>
-              <Layout layoutRef={layoutRef} mainRef={mainRef} router={router}>
-                <Component {...pageProps} />
-              </Layout>
-            </div>
-          </main>
-        </div>
+    <div className={styles.root}>
+      {domElements}
+      <div ref={layoutRef} id="layout" className={styles.layout}>
+        {canvasElements}
+        <Canvas
+          id="fluidCanvas"
+          flat
+          gl={{
+            antialias: false,
+            stencil: false,
+            depth: false,
+            pixelRatio: 0.1,
+          }}
+          style={{ mixBlendMode: 'difference', background: 'black' }}
+          linear
+          className={styles.canvasContainer}
+          eventSource={mainRef.current}
+          dpr={[0.1, 0.5]}
+        >
+          <EffectComposer>
+            <Fluid fluidColor={fluidColor} mainRef={mainRef} />
+          </EffectComposer>
+        </Canvas>
+        <main ref={mainRef} className={styles.main}>
+          <div ref={mainContainerRef} id="mainContainer" className={styles.mainContainer}>
+            <Layout layoutRef={layoutRef} mainRef={mainRef} router={router}>
+              <Component {...pageProps} />
+            </Layout>
+          </div>
+        </main>
       </div>
-    </>
+    </div>
   );
 }
 
