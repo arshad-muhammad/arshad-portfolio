@@ -18,7 +18,6 @@ import Loader from '@src/components/dom/Loader';
 import Navbar from '@src/components/dom/navbar/Index';
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
 import Scrollbar from '@src/components/dom/Scrollbar';
-import Stats from '@src/components/stats/Index';
 import Tempus from '@darkroom.engineering/tempus';
 import { View } from '@react-three/drei';
 import { gsap } from 'gsap';
@@ -121,7 +120,6 @@ function MyApp({ Component, pageProps, router }) {
 
   return (
     <>
-      <Stats />
       <div className={styles.root}>
         {domElements}
         <div ref={layoutRef} id="layout" className={styles.layout}>
