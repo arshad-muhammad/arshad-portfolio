@@ -250,7 +250,10 @@ function Home() {
       </div>
       {isMobile && (
         <div className={styles.rightContainerMobile}>
-          <h6 className="h6"> Software Developer and AI/ML Engineer crafting innovative full-stack applications with cutting-edge technologies. Transforming ideas into scalable, production-ready solutions.</h6>
+          <h6 className="h6">
+            {' '}
+            Software Developer and AI/ML Engineer crafting innovative full-stack applications with cutting-edge technologies. Transforming ideas into scalable, production-ready solutions.
+          </h6>
         </div>
       )}
 

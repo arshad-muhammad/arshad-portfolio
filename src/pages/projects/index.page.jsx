@@ -17,7 +17,8 @@ import { useWindowSize } from '@darkroom.engineering/hamo';
 
 const seo = {
   title: 'Muhammad Arshad R A - Projects',
-  description: 'Explore my portfolio featuring AI-powered applications, full-stack web projects, and innovative software solutions. Discover my work with React, Next.js, Node.js, TensorFlow, and more.',
+  description:
+    'Explore my portfolio featuring AI-powered applications, full-stack web projects, and innovative software solutions. Discover my work with React, Next.js, Node.js, TensorFlow, and more.',
   keywords: [
     'Arshad Projects',
     'Portfolio Showcase',

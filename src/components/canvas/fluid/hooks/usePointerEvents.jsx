@@ -9,7 +9,6 @@ const usePointerEvents = (mainRef, size, force) => {
 
   useEffect(() => {
     if (!mainRef.current) {
-      console.error('Main reference is not initialized');
       return undefined;
     }
 
