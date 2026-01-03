@@ -51,7 +51,7 @@ function About() {
       <div className={clsx(styles.nameContainer, 'layout-block-inner')}>
         <AppearTitle>
           <h1 className={clsx('h1', 'medium')}>Hey, My name&apos;s</h1>
-          <h1 className={clsx('h1', 'medium')}>Evangelos Giatsidis!</h1>
+          <h1 className={clsx('h1', 'medium')}>Muhammad Arshad R A!</h1>
         </AppearTitle>
       </div>
 
@@ -59,28 +59,28 @@ function About() {
         {isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapper)} ref={animatedImageRef}>
           <AppearTitle>
-            <div className="p-l">“My solo learning journey as a self-taught</div>
-            <div className="p-l">developer empowers me to solve problems</div>
-            <div className="p-l">creatively and efficiently, supporting the</div>
-            <div className="p-l">successful completion of your project goals”</div>
+            <div className="p-l">"Passionate about building innovative</div>
+            <div className="p-l">AI-powered applications that solve real-world</div>
+            <div className="p-l">problems. Combining technical expertise with</div>
+            <div className="p-l">creative problem-solving to deliver impactful solutions"</div>
           </AppearTitle>
         </div>
         {!isMobile ? renderImageContainer() : null}
         <div className={clsx(styles.descWrapperBottom)}>
           {!isMobile ? (
             <AppearTitle key="desktop-descWrapperBottom">
-              <h6 className="h6">A passionate front-end developer hailing from Greece.</h6>
-              <h6 className="h6">With a strong eye for design and a dedication to</h6>
-              <h6 className="h6">creating seamless user experiences. I specialize in</h6>
-              <h6 className="h6">bringing web applications to life with clean and efficient</h6>
-              <h6 className="h6">code.</h6>
+              <h6 className="h6">A Computer Science student and Software Developer</h6>
+              <h6 className="h6">from Karnataka, India. Specializing in full-stack</h6>
+              <h6 className="h6">development and AI/ML engineering. I build scalable</h6>
+              <h6 className="h6">applications using modern technologies like React,</h6>
+              <h6 className="h6">Next.js, Node.js, and TensorFlow.</h6>
             </AppearTitle>
           ) : (
             <AppearTitle key="mobile-descWrapperBottom">
-              <h6 className="h6"> A passionate front-end developer hailing from Greece. With a</h6>
-              <h6 className="h6">strong eye for design and a dedication to creating seamless</h6>
-              <h6 className="h6">user experiences. I specialize in bringing web applications to life</h6>
-              <h6 className="h6">with clean and efficient code.</h6>
+              <h6 className="h6"> A Computer Science student and Software Developer</h6>
+              <h6 className="h6">from Karnataka, India. Specializing in full-stack</h6>
+              <h6 className="h6">development and AI/ML engineering. I build scalable</h6>
+              <h6 className="h6">applications using modern technologies.</h6>
             </AppearTitle>
           )}
           <div className={clsx(styles.buttonContainer)}>

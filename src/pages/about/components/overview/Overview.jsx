@@ -11,25 +11,25 @@ function Overview() {
       <div className={styles.title}>
         {isMobile ? (
           <AppearTitle key="mobile-queto">
-            <h3 className="h3">The front-end developer&apos;s role </h3>
+            <h3 className="h3">Building software is about </h3>
             <h3 className="h3">
-              is like a kind host, <span className="medium">ensuring</span>
+              solving real problems with <span className="medium">innovative</span>
             </h3>
             <h3 className="h3">
-              visitors have a <span className="medium">smooth</span> and
+              technology and <span className="medium">creative</span>
             </h3>
             <h3 className="h3">
-              <span className="medium">enjoyable</span> experience.
+              <span className="medium">solutions</span>.
             </h3>
           </AppearTitle>
         ) : (
           <AppearTitle key="desktop-queto">
-            <h3 className="h3">The front-end developer&apos;s role is like a</h3>
+            <h3 className="h3">Building software is about solving real</h3>
             <h3 className="h3">
-              kind host, <span className="medium">ensuring</span> visitors have
+              problems with <span className="medium">innovative</span> technology
             </h3>
             <h3 className="h3">
-              a <span className="medium">smooth</span> and <span className="medium">enjoyable</span> experience.
+              and <span className="medium">creative</span> <span className="medium">solutions</span>.
             </h3>
           </AppearTitle>
         )}
@@ -42,35 +42,35 @@ function Overview() {
       <div className={styles.desc}>
         {!isMobile ? (
           <AppearTitle key="desktop-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Greece with a </h6>
-            <h6 className="h6">passion for crafting amazing digital experiences. I studied software</h6>
-            <h6 className="h6">engineering to deepen my understanding of how to build sleek and </h6>
-            <h6 className="h6">efficient websites and apps.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not busy coding, you&apos;ll often find me soaking up inspiration from</h6>
-            <h6 className="h6">the world of design. Whether it&apos;s exploring new color palettes or refining</h6>
-            <h6 className="h6">user interfaces, I love bringing creativity into my work.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not immersed in coding, I enjoy staying active. I love swimming, </h6>
-            <h6 className="h6">rowing, and playing intense PC games to relax and recharge.</h6>
-
-            <h6 className={clsx(styles.paddingTop, 'h6')}>I&apos;m looking forward to collaborating and creating something great!</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Evangelos Giatsidis.</h6>
+            <h6 className="h6">Hey there! I&apos;m Muhammad Arshad R A, a Computer Science student</h6>
+            <h6 className="h6">at K.V.G. College of Engineering, Sullia, currently in my 2nd year.</h6>
+            <h6 className="h6">I&apos;m a Software Developer and AI/ML Engineer passionate about</h6>
+            <h6 className="h6">building innovative full-stack applications and intelligent systems.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>With experience in React, Next.js, Node.js, and AI technologies like</h6>
+            <h6 className="h6">TensorFlow and LangChain, I&apos;ve built production-ready applications</h6>
+            <h6 className="h6">serving hundreds of users. I specialize in creating scalable solutions</h6>
+            <h6 className="h6">that combine cutting-edge technology with practical problem-solving.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Beyond coding, I lead Sphere Hive, the official tech innovation club</h6>
+            <h6 className="h6">at KVGCE, organizing workshops and hackathons. I&apos;ve also won</h6>
+            <h6 className="h6">hackathons and been recognized for my technical contributions.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>I&apos;m always excited to collaborate on innovative projects and</h6>
+            <h6 className="h6">create impactful technology solutions!</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Muhammad Arshad R A.</h6>
           </AppearTitle>
         ) : (
           <AppearTitle key="mobile-overview">
-            <h6 className="h6">Hey there! I&apos;m a 26-year-old front-end developer from Greece </h6>
-            <h6 className="h6">with a passion for crafting amazing digital experiences. I studied </h6>
-            <h6 className="h6">software engineering to deepen my understanding of how to </h6>
-            <h6 className="h6">build sleek and efficient websites and apps.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not busy coding, you&apos;ll often find me soaking up </h6>
-            <h6 className="h6">inspiration from the world of design. Whether it&apos;s exploring new</h6>
-            <h6 className="h6">color palettes or refining user interfaces, I love bringing</h6>
-            <h6 className="h6">creativity into my work.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>When I&apos;m not immersed in coding, I enjoy staying active. I love</h6>
-            <h6 className="h6">swimming, rowing, and playing intense PC games to relax</h6>
-            <h6 className="h6">and recharge.</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>I&apos;m looking forward to collaborating and creating something</h6>
-            <h6 className="h6">great!</h6>
-            <h6 className={clsx(styles.paddingTop, 'h6')}>Evangelos Giatsidis.</h6>
+            <h6 className="h6">Hey there! I&apos;m Muhammad Arshad R A, a Computer Science </h6>
+            <h6 className="h6">student at K.V.G. College of Engineering, Sullia, currently in </h6>
+            <h6 className="h6">my 2nd year. I&apos;m a Software Developer and AI/ML Engineer </h6>
+            <h6 className="h6">passionate about building innovative full-stack applications.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>With experience in React, Next.js, Node.js, and AI technologies,</h6>
+            <h6 className="h6">I&apos;ve built production-ready applications serving hundreds of</h6>
+            <h6 className="h6">users. I specialize in creating scalable solutions that combine</h6>
+            <h6 className="h6">cutting-edge technology with practical problem-solving.</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Beyond coding, I lead Sphere Hive, organizing workshops and</h6>
+            <h6 className="h6">hackathons. I&apos;m always excited to collaborate on innovative</h6>
+            <h6 className="h6">projects and create impactful technology solutions!</h6>
+            <h6 className={clsx(styles.paddingTop, 'h6')}>Muhammad Arshad R A.</h6>
           </AppearTitle>
         )}
       </div>

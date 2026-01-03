@@ -96,8 +96,8 @@ function Footer() {
           <h4 className={clsx(styles.workWithMe, 'h4')}>Work With Me:</h4>
           <div>
             <div className={styles.link}>
-              <Link aria-label="Send email" scroll={false} href="mailto:vaggelisgiats@gmail.com">
-                <h4 className={clsx(styles.email, 'h4')}>vaggelisgiats@gmail.com</h4>
+              <Link aria-label="Send email" scroll={false} href="mailto:muhd.arshadra@gmail.com">
+                <h4 className={clsx(styles.email, 'h4')}>muhd.arshadra@gmail.com</h4>
               </Link>
               {/* class="link__graphic link__graphic--slide" */}
               <svg className={clsx(styles.linkGraphic)} width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
@@ -110,7 +110,7 @@ function Footer() {
 
       <div className={styles.middleContainer} style={{ gridColumn: '1 / 9' }}>
         <AppearTitle isFooter>
-          <div className="p-x">Based in Thessaloniki, Greece</div>
+          <div className="p-x">Based in Sullia, Karnataka, India</div>
           <div className={clsx('p-x', styles.middleText)}>
             Current Time: <Time />
           </div>
@@ -125,13 +125,13 @@ function Footer() {
       </div>
       <div className={styles.middleContainer} style={{ gridColumn: '13 / 17', textAlign: isMobile ? 'left' : 'right' }}>
         <AppearTitle isFooter>
-          <div className="p-x">© 2025 · Evangelos Giatsidis</div>
+          <div className="p-x">© 2025 · Muhammad Arshad R A</div>
           <div className={clsx('p-x', styles.middleText)}>All Rights Reserved</div>
         </AppearTitle>
       </div>
 
       <div className={styles.giats}>
-        <span>GIATS</span>
+        <span>ARSHAD</span>
       </div>
       <div className={styles.goToTop}>
         <GoTop />

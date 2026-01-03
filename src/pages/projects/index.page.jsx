@@ -16,23 +16,25 @@ import { useStore } from '@src/store';
 import { useWindowSize } from '@darkroom.engineering/hamo';
 
 const seo = {
-  title: 'Giats - Projects',
-  description: 'Explore my portfolio to see a range of frontend projects, from responsive websites to web applications. Discover my work with React, Nextjs, React three fiber, Electron and more.',
+  title: 'Muhammad Arshad R A - Projects',
+  description: 'Explore my portfolio featuring AI-powered applications, full-stack web projects, and innovative software solutions. Discover my work with React, Next.js, Node.js, TensorFlow, and more.',
   keywords: [
-    'Giats Projects',
+    'Arshad Projects',
     'Portfolio Showcase',
-    'Frontend Development Examples',
-    'Web Design Portfolio',
-    'Responsive Web Projects',
+    'Full Stack Development Examples',
+    'AI/ML Projects',
     'Web Applications Portfolio',
-    'HTML and CSS Projects',
-    'JavaScript Development',
-    'React Work',
+    'React Projects',
     'Next.js Projects',
-    'React Three Fiber Projects',
-    'Electron Projects',
-    'Professional Web Development',
-    'Evangelos Giatsidis Projects',
+    'Node.js Projects',
+    'TensorFlow Projects',
+    'Machine Learning Applications',
+    'Software Development Portfolio',
+    'Muhammad Arshad Projects',
+    'GitFlowAI',
+    'ResumeX',
+    'GhostScribe',
+    'BaatCheet',
   ],
 };
 

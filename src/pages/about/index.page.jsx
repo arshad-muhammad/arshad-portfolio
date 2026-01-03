@@ -6,21 +6,21 @@ import Process from '@src/pages/about/components/process/Process';
 import CustomHead from '@src/components/dom/CustomHead';
 
 const seo = {
-  title: 'Giats - About',
-  description: 'Learn about my journey, values, and commitment to quality web and app solutions.',
+  title: 'Muhammad Arshad R A - About',
+  description: 'Learn about my journey as a Software Developer and AI/ML Engineer, my technical skills, experience, and passion for building innovative solutions.',
   keywords: [
-    'Giats',
-    'About Evangelos Giatsidis',
+    'Muhammad Arshad',
+    'About Arshad',
     'About me',
-    'Frontend Developer Journey',
-    'Web Developer Story',
-    'Professional Web Development',
-    'Frontend Development Expertise',
-    'Web Design Skills',
-    'Web Development Services',
-    'Web Design Expertise',
+    'Software Developer Journey',
+    'AI Engineer Story',
+    'Full Stack Developer',
+    'Computer Science Student',
+    'KVG College of Engineering',
+    'Technical Skills',
+    'Professional Experience',
     'Developer Profile',
-    'Quality Web Solutions',
+    'AI/ML Engineer',
   ],
 };
 function Page() {
